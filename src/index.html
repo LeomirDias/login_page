@@ -6,26 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=PT+Serif&family=Poppins:wght@100&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
     </style>
     <title>Página de Login</title>
 </head>
 
 <body>
-    <div class="container-elementos">
-        <div id="titulo">
-            <h1>LOGIN</h1>
+    <main>
+        
+        <div class="container-elementos">
+
+            <div id="titulo">
+                <h1>LOGIN</h1>
+            </div>
+
+            <div class="login">
+                <input id="email" type="email" name="endereço_e-mail" placeholder="E-mail"/>
+                
+                <span id="user-icon"></span>
+
+                <input id="password" type="password" name="senha_usuario" placeholder="Senha"/>
+                
+                <span id="password-icon"></span>
+
+            </div>
+
+            <button id="botao_login"> Login </button>
+
+            <div class="others">
+                <div id="login_google"></div>
+                <div id="login_facebook"></div>
+            </div>
+
         </div>
-    </div>
-    <div class="login">
-            <input id="email" type="email" name="endereço_e-mail" placeholder="E-mail"/>
-            <input id="password" type="password" name="senha_usuario" placeholder="Senha"/>
-    </div>
-    <button id="botao_login"> Login </button>
-    <div class="others">
-        <div id="login_google"></div>
-        <div id="login_facebook"></div>
-    </div>
+      
+    </main>
 </body>
 
 </html>
