@@ -11,31 +11,49 @@
     <title>Página de Login</title>
 </head>
 
+<header>
+
+        <img src="../assets/logo.png" alt="Logo"> 
+
+        <h3>Fazer login</h3> 
+
+        <p>Faça login para prosseguir</p>
+
+</header>
+
 <body>
     <main>
-        
         <div class="container-elementos">
-
-            <div id="titulo">
-                <h1>LOGIN</h1>
-            </div>
-
+        
             <div class="login">
-                <input id="email" type="email" name="endereço_e-mail" placeholder="E-mail"/>
                 
-                <span id="user-icon"></span>
+                <div id="user">
 
-                <input id="password" type="password" name="senha_usuario" placeholder="Senha"/>
+                    <input id="email" type="email" name="endereço_e-mail" placeholder="E-mail"/>
                 
-                <span id="password-icon"></span>
+                    <div id="user-icon"></div>
+
+                </div>
+               
+                <div id="validation">
+
+                    <input id="password" type="password" name="senha_usuario" placeholder="Senha"/>
+                
+                    <span id="password-icon"></span>
+
+                </div>
+
 
             </div>
 
-            <button id="botao_login"> Login </button>
+            <button id="botao_login"> Login now </button>
 
             <div class="others">
+
                 <div id="login_google"></div>
+
                 <div id="login_facebook"></div>
+
             </div>
 
         </div>
